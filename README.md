@@ -10,7 +10,7 @@ Projeto em Node feito para consultas de Embedded Token e AccessToken da microsof
 * yarn add **node-fetch**
 * yarn add **nodemon**
 ### 3. Modificar o arquivo JSON/config.json 
-* E ESSENCIAL QUE CONFIGURE ESTE ARQUIVO COM OS DADOS CORRETAMENTE
+_italico_ E ESSENCIAL QUE CONFIGURE ESTE ARQUIVO COM OS DADOS CORRETAMENTE _italico_
 * Modificar Campo **client_id** - ID DE APLICACAO GERALMENTE CRIADO NO AZURE PARA APLICACOES POWER BI EMBEDDED
 * Modificar Campo **username** - EMAIL UTILIZADO NA CONTA POWER BI WEB ou SERVICE
 * Modificar Campo **password** - SENHA DO EMAIL UTILIZADO
