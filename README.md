@@ -23,8 +23,8 @@ Projeto em Node feito para consultas de Embedded Token e AccessToken da microsof
 ```
 **BODY-JSON:**
 {
-     "client_id":"67a7b75a-2f22-4b45-96aa-4ac88261a0a2"
-     ,"group_id":"e0fc5fd5-eb12-478c-8e75-b52f6463eaf9"
+     "client_id":"ID_DOREPORT_OU_RELATORIO_POWERBI"
+     ,"group_id":"ID_DO_GRUPO_DO_REPORT_OU_RELATORIO_POWERBI"
 }
 ```
 ##### Criado por Vitor Willian - Qualquer duvida redes sociais a baixo:
