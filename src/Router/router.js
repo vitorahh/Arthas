@@ -5,7 +5,7 @@ const EmbeddedToken = require('../Controllers/get_embeddedToken.js');
 const config = require('../Controllers/get_config.js');
 
 
-router.get('/AccessToken', async (req, res) => 
+router.post('/AccessToken', async (req, res) => 
 {
     try
     {   
@@ -19,7 +19,7 @@ router.get('/AccessToken', async (req, res) =>
     }
 });
 
-router.get('/EmbeddedToken', async (req, res) => 
+router.post('/EmbeddedToken', async (req, res) => 
 {
     try
     {   
@@ -36,7 +36,7 @@ router.get('/EmbeddedToken', async (req, res) =>
     }
 });
 
-router.get('/config', async (req, res) =>
+router.post('/config', async (req, res) =>
 {
     console.log('Configurações de Acesso Solicitadas.');
     res.send(config.JsonConfig);
