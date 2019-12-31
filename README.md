@@ -2,7 +2,7 @@
 
 Projeto em Node feito para consultas de Embedded Token e AccessToken da microsoft para uso no Power BI embedded.
 
-### 1. Instala o NodeJS versão => 10.11 Link para download: https://nodejs.org/en/download/.
+### 1. Instalar o NodeJS versão => 10.11 Link para download: https://nodejs.org/en/download/.
 ### 2. Instalar as Dependencias caso seja preciso
 ##### UTILIZEI O YARN POREM VOCÊ PODE USAR O NPM CASO QUEIRA.
 * yarn add **cors**
