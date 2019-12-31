@@ -2,8 +2,9 @@
 
 Projeto em Node feito para consultas de Embedded Token e AccessToken da microsoft para uso no Power BI embedded.
 
-### 1. Instala o NodeJS versão 10.11 ou maior  Link para download: https://nodejs.org/en/download/.
-### 2. Instalar as Dependencias caso seja preciso, eu utilizei pelo yarn porem você pode usar o npm caso queira.
+### 1. Instala o NodeJS versão => 10.11 Link para download: https://nodejs.org/en/download/.
+### 2. Instalar as Dependencias caso seja preciso
+##### UTILIZEI O YARN POREM VOCÊ PODE USAR O NPM CASO QUEIRA.
 * yarn add **cors**
 * yarn add **express**
 * yarn add **fs**
@@ -16,7 +17,7 @@ Projeto em Node feito para consultas de Embedded Token e AccessToken da microsof
 * Modificar Campo **password** - SENHA DO EMAIL UTILIZADO
 ### 4. Comando para Iniciar o projeto:
 * **nodemon** src/index.js ou **node** src/index.js 
-### 5. chamadas para teste no Insomnia ou Postman
+### 5. Chamadas para teste no Insomnia ou Postman
 * localhost:3000/tokens/config
 * localhost:3000/tokens/AccessToken
 * localhost:3000/tokens/EmbeddedToken
