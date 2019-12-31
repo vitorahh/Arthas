@@ -16,7 +16,7 @@ Projeto em Node feito para consultas de Embedded Token e AccessToken da microsof
 * Modificar Campo **password** - SENHA DO EMAIL UTILIZADO
 ### 4. Comando para Iniciar o projeto:
 * **nodemon** src/index.js ou **node** src/index.js 
-### 5. chamadas para teste no Insomnia ou Postman
+### 5. Chamadas para teste no Insomnia ou Postman
 * localhost:3000/tokens/config
 * localhost:3000/tokens/AccessToken
 * localhost:3000/tokens/EmbeddedToken
