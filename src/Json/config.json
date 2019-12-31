@@ -1,0 +1,9 @@
+{ 
+    "grant_type": "password"
+    ,"scope":"openid"
+    ,"resource":"https://analysis.windows.net/powerbi/api"  
+    ,"client_id": "ID_APLICACAO_GERADO_PELO_POWER_BI_EMBEDDED_OU_AZURE" 
+    ,"username": "teste@hotmail.com"
+    ,"password" : "senhadoemail123"
+    ,"urlaccesstoken": "https://login.microsoftonline.com/common/oauth2/token"
+}
