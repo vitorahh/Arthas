@@ -18,9 +18,9 @@ Projeto em Node feito para consultas de Embedded Token e AccessToken da microsof
 ### 4. Comando para Iniciar o projeto:
 * **nodemon** src/index.js ou **node** src/index.js 
 ### 5. Chamadas para teste no Insomnia ou Postman
-* localhost:3000/tokens/config
-* localhost:3000/tokens/AccessToken
-* localhost:3000/tokens/EmbeddedToken
+* POST - localhost:3000/tokens/config
+* POST - localhost:3000/tokens/AccessToken
+* POST - localhost:3000/tokens/EmbeddedToken
 ```
 **BODY-JSON:**
 {
