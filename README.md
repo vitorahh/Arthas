@@ -17,10 +17,16 @@ Projeto em Node feito para consultas de Embedded Token e AccessToken da microsof
 ### 4. Comando para Iniciar o projeto:
 * **nodemon** src/index.js ou **node** src/index.js 
 ### 5. chamadas para teste no Insomnia ou Postman
-*
-*
-*
-
+* localhost:3000/tokens/config
+* localhost:3000/tokens/AccessToken
+* localhost:3000/tokens/EmbeddedToken
+```
+**BODY-JSON:**
+{
+     "client_id":"67a7b75a-2f22-4b45-96aa-4ac88261a0a2"
+     ,"group_id":"e0fc5fd5-eb12-478c-8e75-b52f6463eaf9"
+}
+```
 ##### Criado por Vitor Willian - Qualquer duvida redes sociais a baixo:
 ##### Facebook: vitor.willian.564
 ##### LinkedIn: vitorwillian
